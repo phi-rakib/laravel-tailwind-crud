@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Prepare The Environment
-        run: cp .env.dusk.local .env
+        run: cp .env.example .env
 
       - name: Create Database
         run: |
