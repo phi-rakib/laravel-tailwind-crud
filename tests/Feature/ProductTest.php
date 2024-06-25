@@ -67,7 +67,7 @@ class ProductTest extends TestCase
         $this->put(route('products.update', $product->id), $updatedData)
             ->assertRedirect(route('products.index'));
 
-        $this->assertDatabaseHas('products', [ ...$updatedData, 'id' => $product->id]);
+        $this->assertDatabaseHas('products', [...$updatedData, 'id' => $product->id]);
     }
 
     public function test_user_can_delete_product(): void
