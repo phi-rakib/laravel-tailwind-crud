@@ -53,7 +53,7 @@ class ProductTest extends DuskTestCase
     {
         $product = Product::factory()->create();
 
-        $this->browse(function (Browser $browser) use ($product) {
+        $this->browse(function (Browser $browser) {
             $browser->visitRoute('products.index')
                 ->clickLink('Edit')
                 ->assertSee('Edit Product')
