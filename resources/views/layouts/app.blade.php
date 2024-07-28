@@ -7,7 +7,7 @@
     @vite('resources/css/app.css')
 </head>
 <body class="bg-gray-100">
-    <div class="container mx-auto mt-8">
+    <div class="container max-w-screen-lg mx-auto mt-8">
         @yield('content')
     </div>
 </body>
