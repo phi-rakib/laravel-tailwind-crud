@@ -6,7 +6,7 @@
 <div class="bg-white p-6 rounded-lg shadow-md">
     <div class="flex flex-row justify-between items-center">
         <h1 class="text-2xl font-bold mb-4">Product List</h1>
-        <a href="{{ route('products.create') }}" class="bg-blue-500 text-white px-4 py-2 rounded-md">Add New Product</a>
+        <a href="{{ route('products.create') }}" class="bg-blue-500 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-md">Add New Product</a>
     </div>
     <table class="table-auto w-full mt-4">
         <thead>
