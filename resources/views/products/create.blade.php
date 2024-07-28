@@ -4,7 +4,11 @@
 
 @section('content')
 <div class="bg-white p-6 rounded-lg shadow-md">
-    <h1 class="text-2xl font-bold mb-4">Add New Product</h1>
+    <div class="flex flex-row justify-between items-center">
+        <h1 class="text-2xl font-bold mb-4">Add New Product</h1>
+        <a href="{{ route('products.index') }}" class="bg-blue-500 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-md">Back</a>
+    </div>
+
     <form action="{{ route('products.store') }}" method="POST">
         @csrf
         <div class="mb-4">
