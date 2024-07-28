@@ -19,7 +19,7 @@
             <label for="price" class="block text-gray-700">Price:</label>
             <input type="text" name="price" id="price" class="w-full p-2 border border-gray-300 rounded-md">
         </div>
-        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md">Add Product</button>
+        <button type="submit" class="bg-green-500 hover:bg-green-700 focus:ring-4 focus:ring-green-400 text-white font-semibold px-4 py-2 rounded-md">Add Product</button>
     </form>
 </div>
 @endsection
